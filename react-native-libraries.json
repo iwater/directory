@@ -18562,7 +18562,6 @@
   },
   {
     "githubUrl": "https://github.com/quantizor/markdown-to-jsx",
-    "npmPkg": "markdown-to-jsx",
     "ios": true,
     "android": true,
     "newArchitecture": true

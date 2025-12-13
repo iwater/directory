@@ -2,10 +2,9 @@ import { createElement, useContext, type ComponentType } from 'react';
 import { StyleSheet, View } from 'react-native';
 
 import { A, colors, darkColors, P } from '~/common/styleguide';
+import { type IconProps } from '~/components/Icons';
 import CustomAppearanceContext from '~/context/CustomAppearanceContext';
 import tw from '~/util/tailwind';
-
-import { type IconProps } from './Icons';
 
 type PlatformProps = {
   name: string;
